@@ -1,0 +1,14 @@
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.exe
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.deps.json
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.runtimeconfig.json
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.runtimeconfig.dev.json
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.dll
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\bin\x64\Debug\netcoreapp3.1\Restaurant.pdb
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.csproj.AssemblyReference.cache
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.GeneratedMSBuildEditorConfig.editorconfig
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.AssemblyInfoInputs.cache
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.AssemblyInfo.cs
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.csproj.CoreCompileInputs.cache
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.dll
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.pdb
+F:\energy-ogre-restaurant-project\Restaurant\Restaurant\obj\x64\Debug\netcoreapp3.1\Restaurant.genruntimeconfig.cache

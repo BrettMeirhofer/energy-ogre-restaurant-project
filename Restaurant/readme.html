@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        blockquote {
+            font-family: 'Nova Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Picker</h1>
+        <p>
+            We are given a CSV file containing the prices of every item on every menu of every restaurant in the town of Jurgensville.
+            In addition, the restaurants of Jurgensville also offer Value Meals, which are groups of several items, at a discounted price.
+            Below is the file's format
+        </p>
+        <p>
+            <strong>for lines that define a price for a single item:</strong>
+        </p>
+        <blockquote>
+            <p>restaurant ID, price, item label</p>
+        </blockquote>
+        <p>
+            <strong>for lines that define the price for a Value Meal </strong>(there can be any number of items in a value meal)
+        </p>
+        <blockquote>
+            <p>restaurant ID, price, item 1 label, item 2 label, ...</p>
+        </blockquote>
+        <p>All restaurant IDs are integers, all item labels are lower case letters and underscores, and the price is a decimal number.</p>
+        <p>
+            We need a program that accepts...
+            <ul>
+                <li>the town's price file</li>
+                <li>a list of item labels that someone wants to eat for dinner</li>
+            </ul>
+            and outputs
+            <ul>
+                <li>the restaurant they should go to</li>
+                <li>the total price it will cost them</li>
+            </ul>
+
+            It is okay to purchase extra items if the total cost is minimized.
+        </p>
+        <p>
+            Here are some sample data sets, program inputs, and the expected result:
+        </p>
+        <hr />
+        <p>
+            <strong>Data File data.csv</strong>
+        </p>
+        <blockquote>
+            <p>
+                1, 4.00, burger 1, 8.00, tofu_log<br />
+                2, 5.00, burger 2, 6.50, tofu_log
+            </p>
+        </blockquote>
+        <p>
+            <strong>Program Input</strong>
+        </p>
+        <blockquote>
+            <p>&gt; program data.csv burger tofu_log</p>
+        </blockquote>
+        <p>
+            <strong>Expected Output</strong>
+        </p>
+        <blockquote>
+            <p>=&gt; 2, 11.5</p>
+        </blockquote>
+        <hr />
+        <p>
+            <strong>Data File </strong><strong>data.csv</strong>
+        </p>
+        <blockquote>
+            <p>
+                3, 4.00, chef_salad<br />
+                3, 8.00, steak_salad_sandwich<br />
+                4, 5.00, steak_salad_sandwich<br />
+                4, 2.50, wine_spritzer
+            </p>
+        </blockquote>
+        <p>
+            <strong>Program Input</strong>
+        </p>
+        <blockquote>
+            <p>&gt; program data.csv chef_salad, wine_spritzer</p>
+        </blockquote>
+        <p>
+            <strong>Expected Output</strong>
+        </p>
+        <blockquote>
+            <p>
+                =&gt; null
+            </p>
+        </blockquote>
+        <hr />
+        <p>
+            <strong>Data File </strong><strong>data.csv</strong>
+        </p>
+        <blockquote>
+            <p>
+                5, 4.00, extreme_fajita<br />
+                5, 8.00, fancy_european_water<br />
+                6, 5.00, fancy_european_water<br />
+                6, 6.00, extreme_fajita, jalapeno_poppers, extra_salsa
+            </p>
+        </blockquote>
+        <p>
+            <strong>Program Input</strong>
+        </p>
+        <blockquote>&nbsp;&gt; program data.csv fancy_european_water extreme_fajita</blockquote>
+        <p>
+            <strong>Expected Output</strong>
+        </p>
+        <blockquote>=&gt; 6, 11.0</blockquote>
+
+        <hr />
+
+        <p><strong>Your Assignment</strong></p>
+        <ul>
+            <li>
+                You are provided with a Visual Studio solution that contains two projects. The <b>Restaurant</b> project contains the program you need to work on,
+                while the <b>Restaurant.Test</b> project contains unit tests.
+            </li>
+            <li>
+                The <code>Program.cs</code> file contains code to read the CSV file containing restaurant data, and to load it in a data structure. It should compile
+                and run as-is, with all off the unit tests failing.
+            </li>
+            <li>
+                Complete the <code>PickBestRestaurant()</code> method to make the program work as specified above.
+            </li>
+            <li>Ensure that the included unit tests pass, then submit the <code>Program.cs</code> file to <a href="mailto:code@energyogre.com?subject=Restaurant Picker Solution"><code>code@energyogre.com</code></a></li>
+        </ul>
+
+        <hr />
+
+        <p><strong>Hints</strong></p>
+        <ul>
+            <li>Use the included unit tests. If you have built it correctly, all the included tests will pass.</li>
+            <li>If one or more of the supplied unit tests fail, it means your solution isn't complete--but if all the unit tests pass, that is not a guarantee that your solution is complete. Make sure you double check the specs to ensure you are handling valid scenarios that may not be in the provided input file.</li>
+            <li>If you are unfamiliar with Unit Tests, you can learn more about them <a href="https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing?view=vs-2019#run-unit-tests">here</a>.</li>
+        </ul>
+
+
+    </div>
+
+</body>
+</html>

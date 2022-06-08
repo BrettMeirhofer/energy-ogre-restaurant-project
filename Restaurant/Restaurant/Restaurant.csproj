@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Restaurant</RootNamespace>
+    <Copyright>Copyright ©  2019</Copyright>
+    <Company>Energy Ogre LLC</Company>
+    <Authors>Dhwanit Shah, Bathi Doddi, Elizabeth Horne</Authors>
+    <RepositoryUrl></RepositoryUrl>
+    <Description>Energy Ogre Solve-It-Yourself Restaurant Project for interested applicants</Description>
+    <PackageTags></PackageTags>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+</Project>
